@@ -1,0 +1,30 @@
+body {
+    height: 80vh;
+    background-image: url("abdo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem;
+    font-size: 1.5rem;
+    
+}
+
+img {
+    width: 90%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.list_item {
+    list-style: none;
+    display: inline-block;
+    background-color: burlywood;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.list_item:hover {
+    background-color: blue;
+    color: burlywood;
+}
